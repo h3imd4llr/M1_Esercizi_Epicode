@@ -1,0 +1,31 @@
+.header{
+    height: 10vh;
+    background-color: #80cbc5;
+}
+
+
+.flex-body {
+    display: flex;
+}
+.nav {
+    height: 70vh;
+    width: 50vw;
+    background-color: #ffab15;
+}
+
+.article {
+    height: 70vh;
+    width: 150vw;
+    background-color: #ffd64e;
+}
+
+.aside {
+    height: 70vh;
+    width: -webkit-fill-available;
+    background-color: #fff176;
+}
+
+.footer {
+    height: 5vw;
+    background-color: #80cbc5;
+}

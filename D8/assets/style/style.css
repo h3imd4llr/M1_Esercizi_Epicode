@@ -1,0 +1,175 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav button {
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 15px;
+}
+
+.bod .ddx .follow {
+    position: relative;
+    left: 30px;
+}
+
+.bod .ddx .follow #foll {
+    background-color: white;
+    border:0;
+}
+
+.bod .ddx .follow button {
+    background-color: white;
+    border:0;
+    border-bottom: 1px solid;
+}
+hr {
+    margin: -1px;
+    max-width: 55.5vw;
+}
+
+#logo {
+    height: 60px;
+    position: relative;
+    left:50px;
+}
+
+.round {
+    border-radius: 50%;
+    position:relative;
+    width: 25px;
+    top:8px;
+}
+
+.bod {
+    position: absolute;
+    display: flex;
+    width: 98vw;
+    justify-content: space-evenly;
+}
+
+.ddx {
+    width: 60vw;
+}
+
+.article {
+    display: flex;
+    margin: 50px 30px;
+}
+
+.img {
+    width: 40%;
+    margin: auto;
+}
+
+.bod .ddx .article .img img {
+    max-width: -webkit-fill-available;
+}
+
+.bod .ddx .article .txt div {
+    display: flex;
+}
+
+.square {
+    border-radius: 15%;
+    position:relative;
+    width: 24px;
+    height: 24px;
+    top: 17px;
+    margin-right: 10px;
+}
+
+.bod .ddx .article .txt h2 {
+    margin: 0;
+}
+
+.bod .ddx .article .txt p {
+    margin: 0;
+}
+
+.ssx {
+    width: 38vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.ssx .discover .logos img {
+    width: 35px;
+}
+
+.ssx #med {
+    width: 70px;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ssx .discover .cent {
+    display: flex;
+    justify-content: center;
+}
+
+.ssx .discover button {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 15px;
+}
+
+.ssx .discover button img {
+    width: 20px;
+}
+
+.butt {
+    display: flex;
+    flex-wrap: wrap;
+    width: 18vw;
+    justify-content: flex-start;
+}
+
+.recommend .butt button {
+    border: 0;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 4px 2px;
+}
+
+.round1 {
+    border-radius: 50%;
+    position:relative;
+    width: 30px;
+    height: 30px;
+}
+.acc {
+    width: 25vw;
+}
+
+.whos {
+    display: flex;
+    height: fit-content;
+}
+
+.bod .ssx .acc .whos div h3 {
+    margin: 0;
+}
+.bod .ssx .acc .whos div p {
+    margin: 0;
+}
+.acc button {
+        background-color: white;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 7px 16px;
+}
+
+.round1 {
+    border-radius: 50%;
+    position:relative;
+    width: 30px;
+    height: 30px;
+}
